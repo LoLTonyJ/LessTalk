@@ -1,0 +1,63 @@
+#######################################################################################################################
+#                                                                                                                     #
+#     Made by: Tony / Ghostinq#8400 / ghostinq                                                                        #
+#                                                                                                                     #
+#######################################################################################################################
+
+# If you encounter any bugs within the plugin, please do notify me Via Discord, or Spigot.
+# I will do my best to release a patch within the Next 24 hrs
+# If there is something that you think is Missing, please put your suggestion in our Discord
+# https://discord.gg/Z7nTTcwZat -> LessTalk | Spigot Plugin Support
+# With that being said, I appreciate you checking out my plugin and look forward to your review!
+
+
+# These are your basic Messages to send to the Player
+# These messages also Support Placeholders.
+
+Prefix: '&7[&cLessTalk&7]'
+Staff Chat: '&7[&cStaff&7]'
+No Permission: '&cYou do not have permission to use this command!'
+
+Chat Cleared: '&cChat has been cleared by %player%'
+Chat Locked: '&cChat has been locked by %player%'
+
+Staff Chat Enabled: '&aStaff chat has been enabled, enjoy!'
+Staff Chat Disabled: '&cStaff Chat has been disabled!'
+
+Chat Unlocked: '&aChat has been unlocked by %player%'
+Chat Locked Player: '&cThe Chat is currently locked!'
+
+Basic Usage Message: '&c&l&oERROR >> &c/lt <command>'
+
+Command Disabled: '&cThis Command is Disabled, please contact an Administrator!'
+
+# Permissions for certain commands, or functions.
+# These permissions will be used if you use a Rank Plugin
+# LuckPerms, GroupManager, PermissionsEX, etc.
+
+Staff Permission: 'LessTalk.Staff.Use'
+Admin Permission: 'LessTalk.Admin.Use'
+Staff Chat Permission: 'LessTalk.Chat.View'
+Chat Bypass: 'LessTalk.Chat.Bypass'
+
+# Lock / Unlock Chat.
+# Mainly here for the Command, if you'd like you can Edit the Config
+# And reload the config in-game, or use the Command to lock / unlock Chat.
+
+Chat Disabled: False
+
+# Enabled Modules
+# Here you can decide which Modules of the plugin can be enabled / disabled
+# Just for that extra customizability
+
+# Bypass Chat Lock -> Allows the user (IF THEY HAVE THE PERMISSION) to bypass the chat lock - Useful for staff members, etc.
+Bypass Chat Lock: true
+
+# Chat Lock Command -> Allows the Chat Lock function to be used.
+Chat Lock: True
+
+# Clear Chat Command -> Clear the chat incase something naughty happens
+Clear Chat: True
+
+# Staff Command -> Toggles the Staff Chat command - Private chat for Staff Members.
+Staff Command: true

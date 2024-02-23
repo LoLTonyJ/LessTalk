@@ -1,0 +1,18 @@
+name: LessTalk
+version: '${project.version}'
+main: me.tony.main.lesstalk.LessTalk
+api-version: '1.20'
+
+depend: [PlaceHolderAPI]
+
+commands:
+  lesstalk:
+    description: Core Command for LessTalk plugin!
+    usage: '/lesstalk help'
+    aliases:
+      - lt
+  lesstalkadmin:
+    description: Open the Administrator Menu for LessTalk
+    usage: '/lta'
+    aliases:
+      - lta
